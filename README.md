@@ -1,4 +1,1 @@
-# Hi, all!
-
-Welcome to my github page.
-
+yuanpinz.github.io

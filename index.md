@@ -1,7 +1,10 @@
-# Hi, all!
+# Welcome to my github page!
 
-Welcome to my github page.
+This is yuanpinz.
 
+## Check out my [Readpo](https://yuanpinz.github.io/readpository)
+
+## Check out my posts
 <ul>
   {% for post in site.posts %}
     <li>

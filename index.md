@@ -2,7 +2,7 @@
 
 This is yuanpinz.
 
-## Check out my [Readpo](https://yuanpinz.github.io/readpository)
+## Check out my [readpo](https://yuanpinz.github.io/readpository)
 
 ## Check out my posts
 <ul>

@@ -188,6 +188,19 @@ main h2 {
 .note-link { color: var(--heme); text-decoration: none; border-bottom: 1px solid var(--eosin); }
 .note-link:hover { color: var(--eosin); }
 
+/* 论文标题与交叉引用 */
+.pub-list a { color: var(--ink-2); text-decoration: none; border-bottom: 1px dashed #c9b6bc; transition: color 0.15s, border-color 0.15s; }
+.pub-list a:hover { color: var(--eosin); border-bottom-color: var(--eosin); }
+.pub-list a:focus-visible { outline: 2px solid var(--heme); outline-offset: 2px; }
+.pub-ref { color: var(--heme); text-decoration: none; font-weight: 600; font-size: 0.92em; margin-left: 2px; white-space: nowrap; }
+.pub-ref:hover { color: var(--eosin); }
+.pub-ref:focus-visible { outline: 2px solid var(--heme); outline-offset: 2px; }
+.entry-pub .entry-pub a { margin-left: 6px; }
+.entry-pub em ~ a.pub-ref { margin-left: 0; }
+/* 期刊/会议名到成果列表的引用链接 */
+.entry-pub a.pub-ref { border-bottom: none; }
+:target { scroll-margin-top: 56px; }
+
 /* ---------- 时间线条目 ---------- */
 .timeline { position: relative; }
 .entry {

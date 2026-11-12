@@ -48,7 +48,7 @@
     <a href="#education">教育背景</a>
     <a href="#projects">项目经历</a>
     <a href="#publications">学术成果</a>
-    <a href="#skills">技能</a>
+    <a href="#portfolio">作品集</a>
   </div>
 </nav>
 
@@ -233,20 +233,16 @@
     </ol>
   </section>
 
-  <section id="skills">
-    <h2>技能</h2>
-    <div class="skills-grid">
-      <div class="skill-block">
-        <h3>工程</h3>
-        <p>Python · C++ · MATLAB · Shell · PyTorch · Scikit-learn · OpenCV · Git · Conda · Docker</p>
-      </div>
-      <div class="skill-block">
-        <h3>计算机视觉</h3>
-        <p>语义分割 · 图像分类 · 图像生成</p>
-      </div>
-      <div class="skill-block">
-        <h3>数据分析与建模</h3>
-        <p>弱监督学习 · 自监督学习 · 课程学习 · 多任务学习 · 知识蒸馏</p>
+  <section id="portfolio">
+    <h2>作品集</h2>
+    <div class="timeline">
+      <div class="entry">
+        <div class="entry-head">
+          <h3><a class="repo-link" href="https://github.com/yuanpinz/AMIE_SDG" target="_blank" rel="noopener">AMIE_SDG</a></h3>
+          <span class="entry-dates">开源研究原型</span>
+        </div>
+        <p class="entry-sub">医疗对话 Self-play 多智能体系统</p>
+        <p class="entry-desc">受 Nature 论文 <em>Towards conversational diagnostic artificial intelligence</em>（Tu, T. et al., 2025）启发的 AMIE inner self-play 交互原型：Vignette Generator、患者、医生、主持人、Critic 与 Evaluation 六类角色通过 WebSocket 编排，对同一病例进行最多三轮问诊与两轮 Critic 反馈改进；每轮结束后医生生成鉴别诊断、Critic 复盘，四组论文量表对齐的评估在后台并行评分。支持多用户独立工作区与各 Agent 提示词的独立配置。</p>
       </div>
     </div>
   </section>

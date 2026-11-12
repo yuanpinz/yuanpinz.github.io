@@ -235,14 +235,31 @@
 
   <section id="portfolio">
     <h2>作品集</h2>
-    <div class="timeline">
-      <div class="entry">
-        <div class="entry-head">
-          <h3><a class="repo-link" href="https://github.com/yuanpinz/AMIE_SDG" target="_blank" rel="noopener">AMIE_SDG</a></h3>
-          <span class="entry-dates">开源研究原型</span>
+    <div class="portfolio-grid">
+      <a class="work-card" href="https://github.com/yuanpinz/AMIE_SDG" target="_blank" rel="noopener">
+        <div class="work-thumb">
+          <img src="amie_workspace.png" alt="AMIE_SDG 个人模拟工作区界面截图" loading="lazy">
         </div>
-        <p class="entry-sub">医疗对话 Self-play 多智能体系统</p>
-        <p class="entry-desc">受 Nature 论文 <em>Towards conversational diagnostic artificial intelligence</em>（Tu, T. et al., 2025）启发的 AMIE inner self-play 交互原型：Vignette Generator、患者、医生、主持人、Critic 与 Evaluation 六类角色通过 WebSocket 编排，对同一病例进行最多三轮问诊与两轮 Critic 反馈改进；每轮结束后医生生成鉴别诊断、Critic 复盘，四组论文量表对齐的评估在后台并行评分。支持多用户独立工作区与各 Agent 提示词的独立配置。</p>
+        <div class="work-body">
+          <h3>AMIE_SDG</h3>
+          <p class="work-sub">医疗对话 Self-play 多智能体系统</p>
+          <p class="work-desc">受 Nature 论文 <em>Towards conversational diagnostic artificial intelligence</em>（2025）启发的 AMIE inner self-play 交互原型：六类角色 WebSocket 编排，多轮问诊、Critic 反馈与后台量表评估，支持多用户独立工作区与提示词配置。</p>
+          <p class="work-meta">开源研究原型 · Python · WebSocket</p>
+        </div>
+      </a>
+      <div class="work-card work-placeholder" aria-hidden="true">
+        <div class="work-thumb"></div>
+        <div class="work-body">
+          <h3>敬请期待</h3>
+          <p class="work-desc">更多作品整理中。</p>
+        </div>
+      </div>
+      <div class="work-card work-placeholder" aria-hidden="true">
+        <div class="work-thumb"></div>
+        <div class="work-body">
+          <h3>敬请期待</h3>
+          <p class="work-desc">更多作品整理中。</p>
+        </div>
       </div>
     </div>
   </section>
